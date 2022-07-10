@@ -1,0 +1,146 @@
+* {
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Roboto', sans-serif;
+}
+
+.container {
+   max-width: 1146px;
+   margin: 0px auto;
+
+}
+
+header {
+   background-image: url(../img/fons.jpg);
+   background-size: cover;
+}
+
+.nav {
+   background-color: #003395;
+
+}
+
+.nav li {
+   display: inline-block;
+   padding: 27px 62px 26px 0px;
+
+}
+
+.nav a {
+   text-decoration: none;
+   color: white;
+   font-size: 18px;
+}
+
+.fons {
+   padding: 120px 0px 138px 0px;
+}
+
+.fons h1 {
+   margin-bottom: 27px;
+   font-size: 54px;
+   color: #003395;
+   font-weight: 500;
+}
+
+.fons p {
+   font-weight: 500;
+   font-size: 18px;
+}
+
+.leftpart {
+   display: inline-block;
+   max-width: 754px;
+   padding: 57px 0px 0px 0px;
+   margin-right: 23px;
+}
+
+.newsandlink {
+   max-width: 362px;
+   display: inline-block;
+   vertical-align: top;
+   padding-top: 57px;
+
+}
+
+.news,
+.link {
+   max-width: 365px;
+   border: #003395 2px solid;
+
+}
+
+.news {
+   margin-bottom: 59px;
+}
+
+.news h2 {
+   margin: 19px 19px 14px 19px;
+   padding: 14px 17px 14px 17px;
+   background-color: #24B0FF;
+   color: white;
+}
+
+.news p {
+   font-size: 16.2px;
+   line-height: 163.3%;
+   margin: 0px 53px 26px 19px;
+   color: #30233D;
+}
+
+.link h2 {
+   margin: 22px 19px 22px 19px;
+   background-color: #24B0FF;
+   color: white;
+   padding: 16px 17px 10px 17px;
+}
+
+.link a {
+   font-size: 16.2px;
+   color: #30233D;
+}
+
+.link {
+   padding-bottom: 35px;
+}
+
+.link ul {
+   padding-left: 18px;
+}
+
+.link li {
+   list-style: none;
+   line-height: 163.35%;
+
+}
+
+.blockleftpart p {
+   font-size: 24px;
+   margin-bottom: 34px;
+   color: #30233D;
+}
+
+.blockleftpart a {
+   color: #003395;
+}
+
+.blockleftpart h2 {
+   color: #003395;
+   border-top: 2px #003395 solid;
+   border-bottom: 2px #003395 solid;
+   font-size: 27px;
+   padding: 13px 0px 15px 0px;
+   margin-bottom: 16px;
+}
+
+footer {
+   background-color: #003395;
+   padding: 45px 0px 83px 0px;
+   text-align: right;
+   color: white;
+   font-size: 11.7px;
+}

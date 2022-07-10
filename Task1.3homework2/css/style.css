@@ -1,0 +1,45 @@
+* {
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+
+header {
+   background-image: url(../img/headerback.jpg);
+   background-repeat: no-repeat;
+   background-position: 80%;
+   background-color: #e7e2e25d;
+   font-family: Tahoma;
+}
+
+.logo {
+   display: inline-block;
+   width: 40%;
+   padding: 30px;
+   vertical-align: middle;
+}
+
+.separator {
+   display: inline-block;
+   width: 2px;
+   height: 50px;
+   background-image: linear-gradient(to top, #e7e2e25d, #a8a3a35d, #e7e2e25d);
+   margin-right: 30px;
+   vertical-align: middle;
+}
+
+.text {
+   display: inline-block;
+   width: 50%;
+   vertical-align: middle;
+}
+
+.miniheader {
+   font-weight: bolder;
+   color: lightblue;
+}
+
+.Container {
+   max-width: 1000px;
+   margin: auto;
+}
